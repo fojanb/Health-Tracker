@@ -5,15 +5,17 @@ import json
 
 # We need a Flask object to setup a server:
 app = Flask(__name__)
-
 # ----------------------------------------------
-#set route for /repositories 
-@app.route('/repositories',methods =["GET"])
-def get_data():
-    username = request.args.get('username')
-    resposne = get(f"https://api.github.com/users/{username}/repos")
-    data = json.dumps(resposne.json())
-    return render_template('repositories.html',data=data,username=username)
+@app.route('/sign-up')
+def sign_up():
+    return render_template('sign-up.html')
+@app.route('/sign-up/help')
+def sign_up_help():
+    return render_template('sign-up-help.html')
+# ----------------------------------------------
+@app.route('/sign-in')
+def sign_in():
+    return render_template('sign-in.html')
 
 # ----------------------------------------------
 #set route for homepage 

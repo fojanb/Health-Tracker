@@ -16,20 +16,3 @@ BRIGHT_CYAN = '\033[96m'
 WHITE = '\033[97m'
 
 RESET = '\033[0m' # called to return to standard terminal text color
-
-# print(BLACK + "black" + RESET)
-# print(RED + "red" + RESET)
-# print(GREEN + "green" + RESET)
-# print(YELLOW + "yellow" + RESET)
-# print(BLUE + "blue" + RESET)
-# print(MAGENTA + "magenta" + RESET)
-# print(CYAN + "cyan" + RESET)
-# print(LIGHT_GRAY + "light gray" + RESET)
-# print(DARK_GRAY + "dark gray" + RESET)
-# print(BRIGHT_RED + "bright red" + RESET)
-# print(BRIGHT_GREEN + "bright green" + RESET)
-# print(BRIGHT_YELLOW + "bright yellow" + RESET)
-# print(BRIGHT_BLUE + "bright blue" + RESET)
-# print(BRIGHT_MAGENTA + "bright magenta" + RESET)
-# print(BRIGHT_CYAN + "bright cyan" + RESET)
-# print(WHITE + "white" + RESET)
