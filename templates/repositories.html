@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositories</title>
+</head>
+<body>
+    Here is the repositories for user name 
+    <span style="font-weight: bolder;color: blueviolet;">{{username}}</span>
+    <div id="flask_data" data-repositories='{{ data }}'></div>
+    <a href="/">Back to home</a>
+</body>
+<script  type="text/javascript" src="{{ url_for('static', filename = 'repositories.js') }}"></script>
+</html>

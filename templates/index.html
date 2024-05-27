@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+<body>
+    <form method="GET" action="">
+        <label for="username">User Name</label>
+        <input type="text" id="username" name="username" placeholder="Enter github username" autocomplete="off" required>
+        <button type="submit">List all the repos</button>
+    </form>
+    <script  type="text/javascript" src="{{ url_for('static', filename = 'index.js') }}"></script>
+</body>
+</html>
